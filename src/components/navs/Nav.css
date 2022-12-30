@@ -1,0 +1,119 @@
+
+
+/* .nav__container{
+} */
+/* .nav__container-logo{
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 280px;
+}
+.nav__container-logo a{
+    color: #000;
+    font-size: 38px;
+}
+.nav__container-links{
+    display: flex;
+    align-items: center;
+    transition: 0.8s;
+    width: 50%;
+}
+.nav__container-links a{
+    margin: 17px;
+    color: rgb(255, 249, 249);
+    font-size: 15px;
+    transition: 1s;
+}
+.nav__container-links a:hover{
+    color: gray;
+}
+.nav__container-links_signup{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+.nav__container-links_signup a{
+    color: #fff;
+} */
+.nav__container-links{
+    font-family: 'Poppins', sans-serif;
+}
+.nav__container-links_signup button{
+    padding: 5px 15px;
+    background-color: rgb(0, 0, 0);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.8s;
+    margin: 15px;
+}
+.nav__container-links_signup button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.offcanvas__container{
+    background: rgb(104, 100, 100);
+    overflow-y: hidden;
+}
+.offcanvas__container-title{
+    font-family: 'Tajawal', sans-serif; 
+    color: #fff;
+}
+.offcanvas__container-body{
+    overflow-x: hidden;
+    overflow: hidden;
+}
+.offcanvas__container-body input{
+    width: 360px;
+    border-radius: 14px;
+    border: 0;
+    margin: 10px;
+    font-family: 'Tajawal', sans-serif; 
+}
+.offcanvas__container-body-button{
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.8s;
+    margin: 15px;
+}
+.offcanvas__container-body-btn{
+    padding: 7px 30px ;
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(160, 158, 158);
+    transition: 1s;
+    font-family: 'Poppins', sans-serif;
+}
+.offcanvas__container-body-btn:hover{
+    background: rgb(184, 182, 182);
+}
+.offcanvas__container-body small a{
+    color: rgb(184, 179, 179);
+}
+.offcanvas__container-socail p{
+    text-align: center;
+}
+.offcanvas__container-socail i{
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+}
+.offcanvas__container-socail a{
+    color: rgb(216, 214, 214);
+    margin: 10px;   
+}
+.offcanvas__container-socail a:hover{
+    color:  rgb(182, 182, 182);
+}
+/* ==================for phone================ */
+@media only screen and (max-width: 600px) {
+    .nav__container-logo{
+        display: flex;
+        color: #fff;
+        margin-left: 45px;
+    }
+  }
