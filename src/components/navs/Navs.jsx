@@ -29,7 +29,7 @@ const Navs = () => {
           <Nav>
             
             <div className='nav__container-links_signup'>
-            <Link to="/signup"> <button> Sign up</button></Link>
+           <button> Sign up</button>
         </div>
           
           </Nav>

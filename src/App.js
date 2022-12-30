@@ -23,7 +23,7 @@ function App() {
       <Navs/>
       <Header/>
       <Card/>
-      <Coment/>
+      {/* <Coment/> */}
       <Footer/>
     </Fragment>
   );
