@@ -16,7 +16,7 @@ const Navs = () => {
  
   return (
     <div className='nav__container'>
-    <Navbar collapseOnSelect expand="lg" bg=" rgb(78, 78, 78)" variant="dark">
+    <Navbar collapseOnSelect expand="lg"  variant="dark">
       <Container>
         <Navbar.Brand href="#home"><img src={IMG} alt="" width={70}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

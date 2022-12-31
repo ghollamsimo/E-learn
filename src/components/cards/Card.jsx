@@ -19,7 +19,7 @@ import LINFO from '../../asetss/linfologi.jpg'
 import REACTNA from '../../asetss/react-native.png'
 import HTMLP from'../../asetss/htmlpng.png'
 import {SiYoutube} from 'react-icons/si'
-
+import { Link } from 'react-router-dom'
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 

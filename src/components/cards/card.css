@@ -47,7 +47,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .content__container-card img{
-   width: 380px;
+   width: 377px;
    border-radius: 20px; 
    cursor: pointer;
 }
@@ -144,7 +144,7 @@
         margin: 30px;
     }
     .content__container-card{
-        margin-left: -10px;
+        margin-left: -20px;
     }
     .content__container-portfolio{
         grid-template-columns: 1fr;
