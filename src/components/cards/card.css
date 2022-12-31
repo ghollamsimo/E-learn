@@ -141,7 +141,7 @@
 @media only screen and (max-width: 600px) {
     .content__container-cards{
         grid-template-columns: 1fr;
-        margin: 30px;
+        margin: 20px;
     }
     .content__container-card{
         margin-left: -20px;
