@@ -132,7 +132,9 @@
     .content__container-cards{
        grid-template-columns: 1fr 1fr;
     }
-   
+   .modal__container-video p{
+    margin: -60px;
+   }
     .modal__container-video button{
         margin-left: 300px;
     }
@@ -163,7 +165,7 @@
         width: fit-content;
     }
     .modal__container-video button{
-        margin-left: 220px;
+        margin-left: 330px;
     }
   };
 

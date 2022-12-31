@@ -41,37 +41,37 @@ function MyVerticallyCenteredModal(props) {
           <h3>Overview</h3>
           <div className='modal__container-video'>
            <i> <SiYoutube/></i>  
-            <p><a href="#"> history of html</a></p>
+            
             <button>Preview</button>
           </div>
 
           <div className='modal__container-video'>
            <i> <SiYoutube/></i>  
-            <p><a href="#"> html5vshtml(8:46)</a></p>
+            
             <button>Start</button>
           </div>
           
           <div className='modal__container-video'>
            <i> <SiYoutube/></i>  
-            <p><a href="#"> tools(16:35)</a></p>
+            
             <button>Start</button>
           </div>
 
           <div className='modal__container-video'>
            <i> <SiYoutube/></i>  
-            <p><a href="#">syntax(15:14)</a></p>
+            
             <button>Start</button>
           </div>
 
           <div className='modal__container-video'>
            <i> <SiYoutube/></i>  
-            <p><a href="#"> structure(16:14)</a></p>
+            
             <button>Start</button>
           </div>
 
           <div className='modal__container-video'>
            <i> <SiYoutube/></i>  
-            <p><a href="#"> attributes (8:09)</a></p>
+            
             <button>Start</button>
           </div>
         </div>
