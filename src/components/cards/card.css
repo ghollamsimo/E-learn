@@ -143,8 +143,15 @@
         grid-template-columns: 1fr;
         margin: 20px;
     }
+    
     .content__container-card{
         margin-left: -20px;
+       
+    }
+    .content__container-card:hover{
+        -ms-transform: scale(1); /* IE 9 */
+        -webkit-transform: scale(1); /* Safari 3-8 */
+        transform: scale(1  ); 
     }
     .content__container-portfolio{
         grid-template-columns: 1fr;

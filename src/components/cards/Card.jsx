@@ -120,7 +120,7 @@ const Card = () => {
      <div className='content__container-cards'>
 
      <div className='content__container-card'>
-          <a  onClick={() => setModalShow(true)} ><img src={HTML}  alt="" width={100} height={220}/>
+          <a  onClick={() => setModalShow(true)} ><img className='card__image' src={HTML}  alt="" width={100} height={220}/>
          
           <p>HTML5 SEO friendly from novice to <br /> master</p>
           <small>unlock the real power of html5 semantic and seo</small>
@@ -140,7 +140,7 @@ const Card = () => {
         </div>
 
         <div className='content__container-card'>
-         <a onClick={() => setModaleShow(true)} > <img src={CSS} alt="" width={100} height={220}/></a>
+         <a onClick={() => setModaleShow(true)} > <img className='card__image' src={CSS} alt="" width={100} height={220}/></a>
          <MyVerticallyCenteredModale
         show={modaleShow}
         onHide={() => setModaleShow(false)}
@@ -154,7 +154,7 @@ const Card = () => {
         </div>
 
         <div className='content__container-card'>
-          <img src={JS} alt="" width={100} height={210}/>
+          <img className='card__image' src={JS} alt="" width={100} height={210}/>
           <p>Apprendre JAVASCRIPT <br /> MODERNE</p>
           <small>Devenir un véritable devloppeur Javascript le Langage numero 1</small>
           <div className='content__container-card-dettails'>
@@ -164,7 +164,7 @@ const Card = () => {
         </div>
 
         <div className='content__container-card'>
-          <img src={PHP} alt="" width={100} height={200}/>
+          <img className='card__image' src={PHP} alt="" width={100} height={200}/>
           <p>LEARN PHP MODERN WITH OBJECT ORIENTED PROGRAMMIMG OOP</p>
           <small>Learn the fundamentals of PHP and object-oriented programming (DARIJA OF MOROCCO).</small>
           <div className='content__container-card-dettails'>
@@ -174,7 +174,7 @@ const Card = () => {
         </div>
 
         <div className='content__container-card'>
-          <img src={REACT} alt="" width={100} />
+          <img className='card__image' src={REACT} alt="" width={100} />
           <p>Formation en ReactJS + Redux + Firebase</p>
           <small>Apprendre et maîtriser ReactJS avec Context API + Redux et construire un projet en temps réel</small>
           <div className='content__container-card-dettails'>
@@ -184,7 +184,7 @@ const Card = () => {
         </div>
 
         <div className='content__container-card'>
-          <img src={REACTNA} alt="" width={100} height={220}/>
+          <img className='card__image' src={REACTNA} alt="" width={100} height={220}/>
           <p>LEARN VUEJS 3 VUE ROUTER AND VUEX STATE MANAGEMENT</p>
           <small>f you're looking to get started building applications with VueJS 3</small>
           <div className='content__container-card-dettails'>
@@ -195,7 +195,7 @@ const Card = () => {
 
 
         <div className='content__container-card'>
-          <img src={VUE} alt="" width={100} height={220}/>
+          <img className='card__image' src={VUE} alt="" width={100} height={220}/>
           <p>LEARN VUEJS 3 VUE ROUTER AND VUEX STATE MANAGEMENT</p>
           <small>f you're looking to get started building applications with VueJS 3</small>
           <div className='content__container-card-dettails'>
@@ -205,7 +205,7 @@ const Card = () => {
         </div>
 
         <div className='content__container-card'>
-          <img src={PYTHON} alt="" width={100} height={220}/>
+          <img className='card__image' src={PYTHON} alt="" width={100} height={220}/>
           <p>LEARN VUEJS 3 VUE ROUTER AND VUEX STATE MANAGEMENT</p>
           <small>f you're looking to get started building applications with VueJS 3</small>
           <div className='content__container-card-dettails'>
@@ -215,7 +215,7 @@ const Card = () => {
         </div>
 
         <div className='content__container-card'>
-          <img src={LARAVEL} alt="" width={100} height={220}/>
+          <img className='card__image' src={LARAVEL} alt="" width={100} height={220}/>
           <p>LEARN VUEJS 3 VUE ROUTER AND VUEX STATE MANAGEMENT</p>
           <small>f you're looking to get started building applications with VueJS 3</small>
           <div className='content__container-card-dettails'>
@@ -225,7 +225,7 @@ const Card = () => {
         </div>
 
         <div className='content__container-card'>
-          <img src={DJANGO} alt="" width={100} height={220}/>
+          <img className='card__image' src={DJANGO} alt="" width={100} height={220}/>
           <p>LEARN VUEJS 3 VUE ROUTER AND VUEX STATE MANAGEMENT</p>
           <small>f you're looking to get started building applications with VueJS 3</small>
           <div className='content__container-card-dettails'>
@@ -235,7 +235,7 @@ const Card = () => {
         </div>
 
         <div className='content__container-card'>
-          <img src={CSHARP} alt="" width={100} height={220}/>
+          <img className='card__image' src={CSHARP} alt="" width={100} height={220}/>
           <p>LEARN VUEJS 3 VUE ROUTER AND VUEX STATE MANAGEMENT</p>
           <small>f you're looking to get started building applications with VueJS 3</small>
           <div className='content__container-card-dettails'>
@@ -245,7 +245,7 @@ const Card = () => {
         </div>
 
         <div className='content__container-card'>
-          <img src={LC} alt="" width={100} height={220}/>
+          <img className='card__image' src={LC} alt="" width={100} height={220}/>
           <p>LEARN VUEJS 3 VUE ROUTER AND VUEX STATE MANAGEMENT</p>
           <small>f you're looking to get started building applications with VueJS 3</small>
           <div className='content__container-card-dettails'>
